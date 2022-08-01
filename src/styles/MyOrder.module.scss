@@ -1,4 +1,4 @@
-@import "vars";
+@import 'vars';
 
 .MyOrder {
   width: 360px;
@@ -10,7 +10,7 @@
   top: 60px;
   bottom: 0;
   border-radius: 6px;
-	border: 1px solid $--very-light-pink;
+  border: 1px solid $--very-light-pink;
   z-index: 10;
 }
 .title-container {

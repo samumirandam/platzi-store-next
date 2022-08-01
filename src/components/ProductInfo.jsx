@@ -23,7 +23,7 @@ const ProductInfo = () => {
           function, add your hall or workspace.
         </p>
         <button className={styles[('primary-button', 'add-to-cart-button')]}>
-          <Image src={addToCartIcon} alt="add to cart" />
+          <Image src={addToCartIcon} alt="add to cart" unsized />
           Add to cart
         </button>
       </div>

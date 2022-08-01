@@ -9,7 +9,7 @@ const NewPassword = () => {
   return (
     <div className={styles['NewPassword']}>
       <div className={styles['NewPassword-container']}>
-        <Image src={logo} alt="logo" className={styles['logo']} />
+        <Image src={logo} alt="logo" className={styles['logo']} unsized />
         <h1 className={styles['title']}>Create a new password</h1>
         <p className={styles['subtitle']}>
           Enter a new passwrd for yue account

@@ -33,6 +33,7 @@ const OrderItem = ({ product }) => {
             src={close}
             alt="close"
             onClick={() => handleRemove(product)}
+            unsized
           />
         </>
       )}

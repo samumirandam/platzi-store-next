@@ -13,7 +13,6 @@ const ProductItem = ({ product }) => {
   const handleClick = (item) => {
     addToCart(item);
   };
-
   return (
     <div className={styles['ProductItem']}>
       <Image
@@ -30,7 +29,7 @@ const ProductItem = ({ product }) => {
           <p>{product.title}</p>
         </div>
         <figure onClick={() => handleClick(product)}>
-          <Image src={addToCartIcon} alt="Agregar al carrito" />
+          <Image src={addToCartIcon} alt="Agregar al carrito" unsized />
         </figure>
       </div>
     </div>

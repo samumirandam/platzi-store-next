@@ -20,7 +20,7 @@ const Login = () => {
   return (
     <div className={styles['Login']}>
       <div className={styles['Login-container']}>
-        <Image src={logo} alt="logo" className={styles['logo']} />
+        <Image src={logo} alt="logo" className={styles['logo']} unsized />
         <form action="/" className={styles['form']} ref={form}>
           <label htmlFor="email" className={styles['label']}>
             Email address

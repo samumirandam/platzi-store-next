@@ -29,10 +29,10 @@ const Header = () => {
 
   return (
     <nav className={styles['Nav']}>
-      <Image src={menu} alt="menu" className={styles['menu']} />
+      <Image src={menu} alt="menu" className={styles['menu']} unsized />
       <div className={styles['navbar-left']}>
         <Link href="/">
-          <Image src={logo} alt="logo" className={styles['nav-logo']} />
+          <Image src={logo} alt="logo" className={styles['nav-logo']} unsized />
         </Link>
         <ul>
           <li>
@@ -64,7 +64,7 @@ const Header = () => {
             className={styles['navbar-shopping-cart']}
             onClick={handleToggleOrders}
           >
-            <Image src={shoppingCart} alt="shopping cart" />
+            <Image src={shoppingCart} alt="shopping cart" unsized />
             {state.cart.length > 0 ? <div>{state.cart.length}</div> : null}
           </li>
         </ul>

@@ -13,7 +13,7 @@ const Order = () => {
         <span>6 articles</span>
       </p>
       <p>$560.00</p>
-      <Image src={flechita} alt="arrow" />
+      <Image src={flechita} alt="arrow" unsized />
     </div>
   );
 };
